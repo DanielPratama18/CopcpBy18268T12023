@@ -1,4 +1,9 @@
-console.log('your loading javascript has been loaded...')
+console.log('My JavaScript has been loaded...');
+$(document).ready(function () {
+    $("#flip").click(function () {
+    $("#panel").slideToggle(5000);
+    });
+});
 
 $(document).ready(function () {
     var div_box = "<div id='load-screen'><div id='loading'></div></div>";
