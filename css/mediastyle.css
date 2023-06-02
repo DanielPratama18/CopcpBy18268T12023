@@ -1,51 +1,21 @@
-@keyframes slide {
-  0% {
-    opacity: 0;
-    transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0%);
-  }
+body{
+    background-color: lightyellow;
 }
-@-webkit-keyframes slide {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(70%);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-  }
+#panel, #flip {
+    padding: 5px;    text-align: center;    background-color: lightblue;    color: yellow;
+    font-weight: bold;    border: solid 1px #c3c3c3;
 }
-@media screen and (max-width: 768px) {
-  .col-sm-4 {
-    text-align: center;
-    margin: 25px 0;
-  }
-  .btn-lg {
-    width: 100%;
-    margin-bottom: 35px;
-  }
-  .col-xs-6 {
-    width: 100%;
-  }
-  img#hideme {
-    display: none;
-  }
-  #loading {
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    background: url(images/loader.gif);
-    background-position: center center;
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+
+#panel {
+    padding: 50px;    display: none;    background-color: blue;    height: 350px;}
+
+img {
+  border: 1px solid #ddd;  border-radius: 4px;  padding: 5px;  width: 150px;
 }
-@media screen and (max-width: 480px) {
-  .logo {
-    font-size: 150px;
-  }
+
+img:hover {
+  border: 1px solid red;
+}
+h2:hover {
+    color:pink;
 }
